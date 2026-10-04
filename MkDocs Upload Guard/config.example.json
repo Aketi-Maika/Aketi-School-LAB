@@ -1,0 +1,27 @@
+{
+  "watch_dir": "/home/aketimaika/Mkdocs/docs",
+  "mkdocs_config": "/home/aketimaika/Mkdocs/mkdocs.yml",
+  "allowed_text_extensions": [
+    ".md",
+    ".markdown",
+    ".txt"
+  ],
+  "text_encodings": [
+    "utf-8-sig"
+  ],
+  "scan_interval_seconds": 2,
+  "settle_seconds": 2,
+  "heartbeat_seconds": 60,
+  "notification_webhook_url": "",
+  "notification_timeout_seconds": 5,
+  "log_file": "/home/aketimaika/mkdocs-upload-guard/upload_guard.log",
+  "log_level": "INFO",
+  "zabbix": {
+    "enabled": false,
+    "server": "127.0.0.1",
+    "port": 10051,
+    "host": "school-lab",
+    "timeout_seconds": 5,
+    "key_prefix": "mkdocs.upload"
+  }
+}
