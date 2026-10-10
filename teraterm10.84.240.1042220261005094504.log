@@ -1,0 +1,221 @@
+[2026-10-05 09:45:29.438] Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-139-generic x86_64)
+[2026-10-05 09:45:29.439] 
+[2026-10-05 09:45:29.439]  * Documentation:  https://help.ubuntu.com
+[2026-10-05 09:45:29.442]  * Management:     https://landscape.canonical.com
+[2026-10-05 09:45:29.443]  * Support:        https://ubuntu.com/pro
+[2026-10-05 09:45:29.443] 
+[2026-10-05 09:45:29.443] Expanded Security Maintenance for Infrastructure is not enabled.
+[2026-10-05 09:45:29.443] 
+[2026-10-05 09:45:29.443] 0のアップデートはすぐに適用されます。
+[2026-10-05 09:45:29.464] 
+[2026-10-05 09:45:29.464] 302 additional security updates can be applied with ESM Infra.
+[2026-10-05 09:45:29.464] Learn more about enabling ESM Infra service for Ubuntu 20.04 at
+[2026-10-05 09:45:29.464] https://ubuntu.com/20-04
+[2026-10-05 09:45:29.467] 
+[2026-10-05 09:45:29.467] Your Hardware Enablement Stack (HWE) is supported until April 2025.
+[2026-10-05 09:45:29.467] Last login: Wed Sep 13 12:46:47 2023 from 10.84.240.90
+[2026-10-05 09:45:29.520] eece-15-d04@eece15d04-H81H3-D:~$ sudo apt update
+[2026-10-05 09:45:33.077] [sudo] eece-15-d04 のパスワード: 
+[2026-10-05 09:45:35.450] 0% [処理中]              取得:1 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+[2026-10-05 09:45:35.563] 0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ub                                                                               ヒット:2 https://packages.microsoft.com/repos/code stable InRelease
+[2026-10-05 09:45:35.585] 0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ub0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ub0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ub0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ub                                                                               ヒット:3 http://jp.archive.ubuntu.com/ubuntu focal InRelease
+[2026-10-05 09:45:35.952]                                                                                0% [ヘッダの待機中です]                                ヒット:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+[2026-10-05 09:45:36.030] 0% [ヘッダの待機中です]0% [ヘッダの待機中です]0% [ヘッダの待機中です]                                ヒット:5 http://jp.archive.ubuntu.com/ubuntu focal-updates InRelease
+[2026-10-05 09:45:36.190]                                 0% [処理中]0% [ヘッダの待機中です]                                ヒット:6 http://jp.archive.ubuntu.com/ubuntu focal-backports InRelease
+[2026-10-05 09:45:36.433]                                 0% [処理中]100% [処理中]                57.7 kB を 1秒 で取得しました (52.1 kB/s)
+[2026-10-05 09:45:36.747] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 45%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:45:38.205] 依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:45:38.443] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:45:38.511] パッケージはすべて最新です。
+[2026-10-05 09:45:38.522] eece-15-d04@eece15d04-H81H3-D:~$ eece-15-d04@eece15d04-H81H3-D:~$ sudo su -
+[2026-10-05 09:46:05.390] root@eece15d04-H81H3-D:~# apt update && apt upgrade -y
+[2026-10-05 09:46:35.445] 0% [処理中]              取得:1 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+[2026-10-05 09:46:35.475] 0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ubuntu                                                                                   ヒット:2 https://packages.microsoft.com/repos/code stable InRelease
+[2026-10-05 09:46:35.531] 0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.91.83) へ接続しています] [security.ubuntu                                                                                   ヒット:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+[2026-10-05 09:46:35.941]                                                                                    0% [ヘッダの待機中です]0% [ヘッダの待機中です]                                ヒット:4 http://jp.archive.ubuntu.com/ubuntu focal InRelease
+[2026-10-05 09:46:36.055]                                 0% [処理中]0% [ヘッダの待機中です]                                ヒット:5 http://jp.archive.ubuntu.com/ubuntu focal-updates InRelease
+[2026-10-05 09:46:36.443]                                 0% [処理中]0% [ヘッダの待機中です]                                ヒット:6 http://jp.archive.ubuntu.com/ubuntu focal-backports InRelease
+[2026-10-05 09:46:36.662]                                 0% [処理中]100% [処理中]                57.7 kB を 1秒 で取得しました (43.4 kB/s)
+[2026-10-05 09:46:36.894] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 44%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:46:38.398] 依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:46:38.698] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:46:38.699] パッケージはすべて最新です。
+[2026-10-05 09:46:38.707] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 100%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:46:38.734] 依存関係ツリーを作成しています... 0%          依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:46:38.970] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:46:39.025] アップグレードパッケージを検出しています... 0%アップグレードパッケージを検出しています... 10%アップグレードパッケージを検出しています... 完了
+[2026-10-05 09:46:39.359] The following security updates require Ubuntu Pro with 'esm-infra' enabled:
+[2026-10-05 09:46:39.359]   libpam0g fdisk perl-base libsoup-gnome2.4-1 libdjvulibre-text
+[2026-10-05 09:46:39.359]   libhttp-daemon-perl evolution-data-server-common
+[2026-10-05 09:46:39.360]   linux-headers-generic-hwe-20.04 libopenjp2-7 bind9-dnsutils poppler-utils
+[2026-10-05 09:46:39.360]   libnghttp2-14 gstreamer1.0-alsa libpackagekit-glib2-18 diffutils
+[2026-10-05 09:46:39.360]   libedataserverui-1.2-2 libcups2 intel-microcode uuid-runtime libfdisk1
+[2026-10-05 09:46:39.360]   libauthen-sasl-perl gnupg-utils gvfs-backends linux-libc-dev xserver-common
+[2026-10-05 09:46:39.360]   python3-mako vim-common libcurl4 libpython3.8-dev gir1.2-soup-2.4
+[2026-10-05 09:46:39.360]   gpg-wks-client gstreamer1.0-plugins-base-apps gcc-9-base libpam-modules
+[2026-10-05 09:46:39.360]   gvfs-bin openssl libblockdev-swap2 xserver-xorg-core sntp
+[2026-10-05 09:46:39.360]   gir1.2-gdkpixbuf-2.0 gnupg-l10n libgdk-pixbuf2.0-0 libc6-dbg libssh-4
+[2026-10-05 09:46:39.382]   libc6-dev liblcms2-2 libcairo-gobject2 libevent-core-2.1-7
+[2026-10-05 09:46:39.382]   libpython3.8-minimal libctf-nobfd0 libwbclient0 git-man python3-jwt
+[2026-10-05 09:46:39.382]   libsystemd0 gcc-10-base libexpat1-dev libavahi-glib1
+[2026-10-05 09:46:39.382]   gstreamer1.0-plugins-good libgs9 cpp-9 libedata-cal-2.0-1 libkmod2 yelp
+[2026-10-05 09:46:39.382]   libyelp0 libasound2-data libmount1 snapd libpam-cap libsqlite3-0 libbz2-1.0
+[2026-10-05 09:46:39.382]   python3-protobuf python3-urllib3 binutils libsnmp-base bind9-host
+[2026-10-05 09:46:39.382]   libarchive13 libitm1 p11-kit libavahi-common-data xdg-dbus-proxy
+[2026-10-05 09:46:39.382]   perl-modules-5.30 libavahi-common3 sudo libncurses6 dnsmasq-base python3-pil
+[2026-10-05 09:46:39.382]   python3-pip gir1.2-accountsservice-1.0 libc6 nano gpg-wks-server util-linux
+[2026-10-05 09:46:39.382]   libpython3.8 python3.8 python-apt-common xserver-xorg-legacy git libwinpr2-2
+[2026-10-05 09:46:39.402]   openssh-sftp-server gpg libblockdev-crypto2 libevent-pthreads-2.1-7 udev
+[2026-10-05 09:46:39.402]   locales gstreamer1.0-plugins-base cups-server-common evolution-data-server
+[2026-10-05 09:46:39.402]   libasan5 libblockdev-loop2 libquadmath0 libklibc libpam-runtime
+[2026-10-05 09:46:39.402]   libblockdev-fs2 cups-common bubblewrap packagekit-tools
+[2026-10-05 09:46:39.403]   linux-image-generic-hwe-20.04 libblockdev-part2 libncursesw6 p11-kit-modules
+[2026-10-05 09:46:39.403]   openjdk-11-jre-headless python3-requests libexpat1
+[2026-10-05 09:46:39.403]   libgstreamer-plugins-good1.0-0 kmod libudev1 rsyslog libapparmor1
+[2026-10-05 09:46:39.403]   libsoup2.4-1 gstreamer1.0-pulseaudio libstdc++-9-dev dirmngr mount
+[2026-10-05 09:46:39.403]   libavahi-ui-gtk3-0 linux-generic-hwe-20.04 libperl5.30 ntp samba-libs
+[2026-10-05 09:46:39.403]   binutils-x86-64-linux-gnu xserver-xephyr libattr1 libinput-bin
+[2026-10-05 09:46:39.429]   gstreamer1.0-gtk3 libblkid1 libebackend-1.2-10 cups-filters libtiff5 udisks2
+[2026-10-05 09:46:39.429]   libsnmp35 gvfs-libs gvfs-fuse libtsan0 libfreerdp2-2 python3-cryptography
+[2026-10-05 09:46:39.429]   libc-bin libubsan1 libebook-1.2-20 cups-ppdc g++-9 libtinfo6 libcaca0 sed
+[2026-10-05 09:46:39.429]   avahi-daemon libcap2 ssh libcupsfilters1 python3.8-minimal
+[2026-10-05 09:46:39.429]   libgstreamer-gl1.0-0 openjdk-11-jdk tar systemd-sysv libcap2-bin
+[2026-10-05 09:46:39.429]   libblockdev2 libuuid1 openjdk-11-jre libavahi-core7 gcc-9 gir1.2-udisks-2.0
+[2026-10-05 09:46:39.429]   libglib2.0-bin gpgv libpam-systemd libxfont2 libgstreamer-plugins-base1.0-0
+[2026-10-05 09:46:39.429]   xwayland xz-utils ncurses-term gstreamer1.0-x ghostscript packagekit
+[2026-10-05 09:46:39.429]   liblsan0 systemd libgomp1 libsmartcols1 rfkill libgdk-pixbuf2.0-bin
+[2026-10-05 09:46:39.429]   libfontembed1 gir1.2-gst-plugins-base-1.0 xxd ncurses-bin libpam-modules-bin
+[2026-10-05 09:46:39.446]   openssh-server libblockdev-utils2 ghostscript-x libgdk-pixbuf2.0-common
+[2026-10-05 09:46:39.446]   libsmbclient openssh-client libmysqlclient21 libnss-systemd libgs9-common
+[2026-10-05 09:46:39.446]   bzip2 avahi-autoipd bsdutils binutils-common libasound2 libsynctex2
+[2026-10-05 09:46:39.446]   libblockdev-part-err2 libgcc-s1 libglib2.0-data ncurses-base
+[2026-10-05 09:46:39.446]   cups-filters-core-drivers gvfs libdjvulibre21 libevent-2.1-7 libc-dev-bin
+[2026-10-05 09:46:39.446]   libxml2 gir1.2-packagekitglib-1.0 python3-tz libbinutils
+[2026-10-05 09:46:39.446]   libebook-contacts-1.2-3 cpio libpython3.8-stdlib libgnutls30 libnss3
+[2026-10-05 09:46:39.446]   libedata-book-1.2-26 libpcap0.8 libudisks2-0 perl rsync gvfs-common vim-tiny
+[2026-10-05 09:46:39.446]   apparmor libecal-2.0-1 libp11-kit0 wget python3.8-dev cups-bsd avahi-utils
+[2026-10-05 09:46:39.460]   cups-core-drivers libatomic1 libpoppler-cpp0v5 cups-daemon libssl1.1 gzip
+[2026-10-05 09:46:39.460]   accountsservice libtasn1-6 gnupg libcc1-0 libprotobuf17 libcamel-1.2-62
+[2026-10-05 09:46:39.460]   libcairo2 libcupsimage2 libexiv2-27 libpoppler-glib8 liblzma5 libstdc++6
+[2026-10-05 09:46:39.460]   libpoppler97 libavahi-client3 cups curl gstreamer1.0-packagekit cups-client
+[2026-10-05 09:46:39.460]   cups-ipp-utils klibc-utils liblcms2-utils openjdk-11-jdk-headless gpg-agent
+[2026-10-05 09:46:39.460]   python-pip-whl gvfs-daemons libedataserver-1.2-24 libfreerdp-client2-2
+[2026-10-05 09:46:39.460]   libglib2.0-0 bind9-libs libcurl3-gnutls gpgconf gstreamer1.0-gl
+[2026-10-05 09:46:39.460]   libatopology2 python3-apt libaccountsservice0 libinput10 libctf0
+[2026-10-05 09:46:39.460]   cups-browsed libgcc-9-dev libxslt1.1 gpgsm tzdata libkpathsea6 libpng16-16
+[2026-10-05 09:46:39.460] Learn more about Ubuntu Pro at https://ubuntu.com/pro
+[2026-10-05 09:46:39.476] アップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。
+[2026-10-05 09:46:39.476] root@eece15d04-H81H3-D:~# apt install -y ca-certificates curl gnupg
+[2026-10-05 09:46:43.997] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 100%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:46:44.026] 依存関係ツリーを作成しています... 0%          依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:46:44.327] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:46:44.327] ca-certificates はすでに最新バージョン (20240203~20.04.1) です。
+[2026-10-05 09:46:44.327] curl はすでに最新バージョン (7.68.0-1ubuntu2.25) です。
+[2026-10-05 09:46:44.327] gnupg はすでに最新バージョン (2.2.19-3ubuntu2.5) です。
+[2026-10-05 09:46:44.742] アップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。
+[2026-10-05 09:46:44.848] root@eece15d04-H81H3-D:~# install -m 0755 -d /etc/apt/keyrings
+[2026-10-05 09:46:58.444] root@eece15d04-H81H3-D:~# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+[2026-10-05 09:47:12.919] ファイル'/etc/apt/keyrings/docker.gpg'は既に存在します。 上書きしますか? (y/N) y
+[2026-10-05 09:47:14.639] root@eece15d04-H81H3-D:~# chmod a+r /etc/apt/keyrings/docker.gpg
+[2026-10-05 09:47:20.932] root@eece15d04-H81H3-D:~# CODENAME=$(. /etc/os-release && echo "$VERSION_CODENAME")
+[2026-10-05 09:47:27.953] root@eece15d04-H81H3-D:~# curl -fsI "https://download.docker.com/linux/ubuntu/dists/${CODENAME}/Release" || CODENAME=noble
+[2026-10-05 09:47:36.668] HTTP/2 200 
+[2026-10-05 09:47:36.668] content-type: binary/octet-stream
+[2026-10-05 09:47:36.668] content-length: 56804
+[2026-10-05 09:47:36.668] server: AmazonS3
+[2026-10-05 09:47:36.668] x-amz-meta-s3cmd-attrs: md5:e51b3172a026bcacb340eac32af96892
+[2026-10-05 09:47:36.668] last-modified: Mon, 14 Jul 2025 11:17:32 GMT
+[2026-10-05 09:47:36.668] date: Sun, 04 Oct 2026 16:43:25 GMT
+[2026-10-05 09:47:36.668] etag: "e51b3172a026bcacb340eac32af96892"
+[2026-10-05 09:47:36.670] x-cache: Hit from cloudfront
+[2026-10-05 09:47:36.670] via: 1.1 64e0542a84a2ed807451f1be5fec7a18.cloudfront.net (CloudFront)
+[2026-10-05 09:47:36.670] x-amz-cf-pop: NRT20-P1
+[2026-10-05 09:47:36.670] x-amz-cf-id: raQmty58X8Rip8i069uALDBGv2aGTGmWZ9SdSU5bv7grkJbV62Et3g==
+[2026-10-05 09:47:36.678] age: 29053
+[2026-10-05 09:47:36.679] 
+[2026-10-05 09:47:36.702] root@eece15d04-H81H3-D:~# echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu ${CODENAME} stable" \
+[2026-10-05 09:47:42.478] >   > /etc/apt/sources.list.d/docker.list
+[2026-10-05 09:47:43.334] root@eece15d04-H81H3-D:~# apt update
+[2026-10-05 09:47:47.912] 0% [処理中]              取得:1 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+[2026-10-05 09:47:48.117] 0% [jp.archive.ubuntu.com (91.189.92.22) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.92.22) へ接続しています] [security.ubuntu                                                                                   ヒット:2 https://packages.microsoft.com/repos/code stable InRelease
+[2026-10-05 09:47:48.117] 0% [jp.archive.ubuntu.com (91.189.92.22) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.92.22) へ接続しています] [security.ubuntu0% [jp.archive.ubuntu.com (91.189.92.22) へ接続しています] [security.ubuntu                                                                                   ヒット:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+[2026-10-05 09:47:48.407]                                                                                    0% [ヘッダの待機中です]                                ヒット:4 http://jp.archive.ubuntu.com/ubuntu focal InRelease
+[2026-10-05 09:47:48.515]                                 0% [処理中]0% [ヘッダの待機中です]0% [ヘッダの待機中です]                                ヒット:5 http://jp.archive.ubuntu.com/ubuntu focal-updates InRelease
+[2026-10-05 09:47:48.714]                                 0% [処理中]0% [ヘッダの待機中です]                                ヒット:6 http://jp.archive.ubuntu.com/ubuntu focal-backports InRelease
+[2026-10-05 09:47:49.024]                                 0% [処理中]100% [処理中]                57.7 kB を 1秒 で取得しました (49.9 kB/s)
+[2026-10-05 09:47:49.546] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 1%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 3%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 4%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 21%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 29%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 32%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 41%パッケージリストを読み込んでいます... 45%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 48%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 50%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 55%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 63%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 66%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 69%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 70%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 71%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 78%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 79%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 84%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 91%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 95%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 97%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 98%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 99%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:47:50.688] 依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:47:51.164] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:47:51.164] パッケージはすべて最新です。
+[2026-10-05 09:47:51.167] root@eece15d04-H81H3-D:~# apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+[2026-10-05 09:47:52.939] パッケージリストを読み込んでいます... 0%パッケージリストを読み込んでいます... 100%パッケージリストを読み込んでいます... 完了
+[2026-10-05 09:47:52.939] 依存関係ツリーを作成しています... 0%          依存関係ツリーを作成しています... 0%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています... 50%依存関係ツリーを作成しています       
+[2026-10-05 09:47:53.130] 状態情報を読み取っています... 0%状態情報を読み取っています... 0%状態情報を読み取っています... 完了
+[2026-10-05 09:47:53.144] containerd.io はすでに最新バージョン (1.7.27-1) です。
+[2026-10-05 09:47:53.145] docker-buildx-plugin はすでに最新バージョン (0.23.0-1~ubuntu.20.04~focal) です。
+[2026-10-05 09:47:53.145] docker-ce-cli はすでに最新バージョン (5:28.1.1-1~ubuntu.20.04~focal) です。
+[2026-10-05 09:47:53.145] docker-ce はすでに最新バージョン (5:28.1.1-1~ubuntu.20.04~focal) です。
+[2026-10-05 09:47:53.145] docker-compose-plugin はすでに最新バージョン (2.35.1-1~ubuntu.20.04~focal) です。
+[2026-10-05 09:47:53.632] アップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 0 個。
+[2026-10-05 09:47:53.680] root@eece15d04-H81H3-D:~# usermod -aG docker aketimaika
+[2026-10-05 09:47:58.248] usermod: ユーザ 'aketimaika' は存在しません
+[2026-10-05 09:47:58.250] root@eece15d04-H81H3-D:~# usermod -aG docker aketimaikaeece-15-d04
+[2026-10-05 09:48:22.908] root@eece15d04-H81H3-D:~# docker --version
+[2026-10-05 09:48:27.413] Docker version 28.1.1, build 4eba377
+[2026-10-05 09:48:27.428] root@eece15d04-H81H3-D:~# docker compose version
+[2026-10-05 09:48:31.619] Docker Compose version v2.35.1
+[2026-10-05 09:48:31.633] root@eece15d04-H81H3-D:~# docker run --rm hello-world
+[2026-10-05 09:48:36.661] 
+[2026-10-05 09:48:36.661] Hello from Docker!
+[2026-10-05 09:48:36.661] This message shows that your installation appears to be working correctly.
+[2026-10-05 09:48:36.661] 
+[2026-10-05 09:48:36.661] To generate this message, Docker took the following steps:
+[2026-10-05 09:48:36.661]  1. The Docker client contacted the Docker daemon.
+[2026-10-05 09:48:36.661]  2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+[2026-10-05 09:48:36.661]     (amd64)
+[2026-10-05 09:48:36.661]  3. The Docker daemon created a new container from that image which runs the
+[2026-10-05 09:48:36.661]     executable that produces the output you are currently reading.
+[2026-10-05 09:48:36.661]  4. The Docker daemon streamed that output to the Docker client, which sent it
+[2026-10-05 09:48:36.661]     to your terminal.
+[2026-10-05 09:48:36.668] 
+[2026-10-05 09:48:36.668] To try something more ambitious, you can run an Ubuntu container with:
+[2026-10-05 09:48:36.685]  $ docker run -it ubuntu bash
+[2026-10-05 09:48:36.685] 
+[2026-10-05 09:48:36.685] Share images, automate workflows, and more with a free Docker ID:
+[2026-10-05 09:48:36.685]  https://hub.docker.com/
+[2026-10-05 09:48:36.685] 
+[2026-10-05 09:48:36.685] For more examples and ideas, visit:
+[2026-10-05 09:48:36.685]  https://docs.docker.com/get-started/
+[2026-10-05 09:48:36.685] 
+[2026-10-05 09:48:37.689] root@eece15d04-H81H3-D:~# systemctl enable docker.service
+[2026-10-05 09:48:42.359] Synchronizing state of docker.service with SysV service script with /lib/systemd/systemd-sysv-install.
+[2026-10-05 09:48:42.359] Executing: /lib/systemd/systemd-sysv-install enable docker
+[2026-10-05 09:48:43.121] root@eece15d04-H81H3-D:~# systemctl enable containerd.service
+[2026-10-05 09:48:45.805] root@eece15d04-H81H3-D:~# exit
+[2026-10-05 09:48:49.455] ログアウト
+[2026-10-05 09:48:49.472] eece-15-d04@eece15d04-H81H3-D:~$  python3 --version
+[2026-10-05 09:48:53.877] Python 3.8.10
+[2026-10-05 09:48:53.878] eece-15-d04@eece15d04-H81H3-D:~$ mkdir -p "$HOME/filebrowser"
+[2026-10-05 09:48:59.504] eece-15-d04@eece15d04-H81H3-D:~$ mkdir -p "$HOME/filebrowser/database"
+[2026-10-05 09:49:14.205] eece-15-d04@eece15d04-H81H3-D:~$ mkdir -p "$HOME/filebrowser/config"
+[2026-10-05 09:49:18.331] eece-15-d04@eece15d04-H81H3-D:~$ mkdir -p "$HOME/Mkdocs/docs"
+[2026-10-05 09:49:22.233] eece-15-d04@eece15d04-H81H3-D:~$ sudo su -
+[2026-10-05 09:49:29.194] root@eece15d04-H81H3-D:~# docker run -d \
+[2026-10-05 09:49:33.925] >   --name filebrowser \
+[2026-10-05 09:49:33.946] >   --restart unless-stopped \
+[2026-10-05 09:49:33.959] >   -v "$HOME/Mkdocs/docs:/srv" \
+[2026-10-05 09:49:33.971] >   -v "$HOME/filebrowser/database:/database" \
+[2026-10-05 09:49:33.991] >   -v "$HOME/filebrowser/config:/config" \
+[2026-10-05 09:49:34.003] >   -p 8080:80 \
+[2026-10-05 09:49:34.018] >   filebrowser/filebrowser
+[2026-10-05 09:49:34.843] docker: Error response from daemon: Conflict. The container name "/filebrowser" is already in use by container "bedb19fbbe8e3151cefc3837ec5440caed27c3b076762ce8ea8218041db39caa". You have to remove (or rename) that container to be able to reuse that name.
+[2026-10-05 09:49:34.843] 
+[2026-10-05 09:49:34.843] Run 'docker run --help' for more information
+[2026-10-05 09:49:34.845] root@eece15d04-H81H3-D:~# ままdocker inspect -f '{{range .Mounts}}{{.Source}} -> {{.Destination}}  {{end}}' filebrowser
+[2026-10-05 09:51:10.098] /root/filebrowser/config -> /config  /root/Mkdocs/docs -> /srv  /root/filebrowser/database -> /database  
+[2026-10-05 09:51:10.110] root@eece15d04-H81H3-D:~# docker rm -f filebrowser
+[2026-10-05 09:51:23.597] filebrowser
+[2026-10-05 09:51:23.598] root@eece15d04-H81H3-D:~# exit
+[2026-10-05 09:53:37.543] ログアウト
+[2026-10-05 09:53:37.552] eece-15-d04@eece15d04-H81H3-D:~$ exit
+[2026-10-05 09:53:41.565] ログアウト
